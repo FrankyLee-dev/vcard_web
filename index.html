@@ -60,11 +60,19 @@
     }
 
     .cs-loader {
+      display: flex;
+      justify-content: center;
       position: absolute;
       top: 0;
       left: 0;
       height: 100%;
       width: 100%
+    }
+
+    .cs-loader-img {
+       position: absolute;
+       top: 30%;
+       height: 20%;
     }
 
     .cs-loader-inner {
@@ -128,13 +136,17 @@
       animation: lol 3s .5s infinite ease-in-out
     }
 
+
+
     </style>
     <title>vcard</title>
     <link rel="manifest" href="manifest.json">
 
     <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "3065185971";
+    var serviceWorkerVersion = "2072469436";
+
+
 
     </script>
     <!-- This script adds the flutter initialization JS code -->
@@ -145,6 +157,7 @@
 <div id="app_splash">
     <div class="preloader">
         <div class="cs-loader">
+            <img class="cs-loader-img" src="icons/Icon-192.png"/>
             <div class="cs-loader-inner">
                 <label> ●</label>
                 <label> ●</label>
@@ -171,6 +184,8 @@
         }
       });
     });
+
+
 
 </script>
 </body>
