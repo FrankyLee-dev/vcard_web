@@ -33223,7 +33223,7 @@ c=p.Q
 c===$&&A.b()
 b=p.ax
 b===$&&A.b()
-q.Ev$=A.aYD("http://api.51vcard.com/",o,h,j,e,B.a_k,b,d,l,c,k,f,n,p.as,p.at,i,m,g)
+q.Ev$=A.aYD("http://test.api.51vcard.com/",o,h,j,e,B.a_k,b,d,l,c,k,f,n,p.as,p.at,i,m,g)
 a1=a1.a
 a=a1==null?null:A.ag(J.aZ(a1.a,"account"))
 a0=a==null?null:B.ba.wN(0,a,null)
@@ -106673,7 +106673,7 @@ return A.D(m,A.a7(A.a([o,A.bj("assets/images/setting/arrow_img.png",m,m,13*$.c()
 $S:737}
 A.A7.prototype={
 abd(){var s,r=null
-if(B.b.B("http://api.51vcard.com/","test")){s=$.c().gj()
+if(B.b.B("http://test.api.51vcard.com/","test")){s=$.c().gj()
 return A.D(r,A.a7(A.a([A.o("\u6d4b\u8bd5\u670d(\u6d4b\u8bd5\u670d\u624d\u4f1a\u663e\u793a\u8fd9\u884c)",r,r,r,r,A.n(r,r,B.o,r,r,r,r,r,r,r,r,15*$.c().gt(),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.o("TRUE",r,r,r,r,A.n(r,r,B.hP,r,r,r,r,r,r,r,r,14*$.c().gt(),r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r)],t.p),B.i,B.G,B.h),r,r,r,r,r,new A.h(0,16*s,0,0),r)}return A.D(r,r,r,r,r,r,r,r,r)},
 cJ(a,b){var s,r,q,p,o,n,m,l,k=null,j=b.V($.b8d(),t.T),i=$.c().gj()
 i=A.dB(!0,k,!0,0,k,k,A.o("\u7248\u672c\u53f7",k,k,k,k,A.n(k,k,B.o,k,k,k,k,k,k,k,k,16*$.c().gt(),k,k,B.am,k,k,!0,k,k,k,k,k,k,k,k),k,k),45*i)
